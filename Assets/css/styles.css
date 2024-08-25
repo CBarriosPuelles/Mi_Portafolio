@@ -1,0 +1,90 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+}
+
+/* contacto.html */
+
+#contacto {
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    background-color: rgb(12, 48, 48);
+    opacity: 0.7;
+    padding: 4%;
+    color: white;
+    border-radius: 2%;
+}
+
+.respuesta {
+    display: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#imgSaludo {
+    width: 200px;
+    margin: auto;
+}
+
+#mostrarNombre {
+    font-style: italic;
+    color: brown;
+}
+
+#tituloContacto {
+    padding-top: 5%;
+    text-align: center;
+}
+
+/* index.html*/
+
+#cardsAboutme {
+    width: 100%;
+    padding-top: 1%;
+    justify-content: center;
+}
+
+.btnAbout {
+    padding-top: 30%;
+    padding-bottom: 30%;
+}
+
+.miInfo {
+    padding: 2%;
+    font-size: medium;
+    font-family: sans-serif;
+}
+
+/* Proyectos.html */
+
+.tituloProyecto {
+    text-align: center;
+    padding: 20%;
+    color: white;
+}
+
+.detalleProyecto {
+    text-align: justify;
+    padding: 5%;
+    color: darkgray;
+}
+
+#controlVentas{
+    justify-content: center; 
+    padding-top: 10%; 
+    width: 100%;
+}
+
+#sistAcreditacion{
+    justify-content: center; 
+    padding-top: 2%; 
+    width: 100%;
+}
